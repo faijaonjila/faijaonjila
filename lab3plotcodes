@@ -1,0 +1,14 @@
+Plot1 
+ggplot(data = dssalaries, aes( x = salary_in_usd)) +
+  geom_boxplot() +
+  labs( x = "salary in usd", title = "Data Science Salaries")
+
+plot2
+ggplot(data = ds_salaries, aes( x = company_size , y = salary_in_usd))  +
+  geom_violin( color = "violet", fill = "lightpink") + 
+  labs( x = "company size", y = "salary in usd", title = "Data Science Job")
+
+Plot3
+ggplot(data = ds_salaries, aes(x=salary_in_usd, y =remote_ratio)) +
+  geom_smooth(se=F) +
+  labs( x = "salary in usd", y = "remote work %", title = "data science job")
