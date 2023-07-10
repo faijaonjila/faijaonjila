@@ -1,0 +1,46 @@
+View(dssalaries)
+first <- dssalaries$salary
+mean(dssalaries$salary)
+mean(first)
+median(dssalaries$salary)
+max(dssalaries$salary)
+min(dssalaries$salary)
+var(dssalaries$salary)
+sd(dssalaries$salary)
+IQR(dssalaries$salary, 0.25)
+IQR(dssalaries$salary, 0.75)
+medsalary <- 138000
+meansalary <- 190695.6
+minsalary <- 6000
+maxsalary <- 30394000
+sdsal <- 671676.5
+lower <- meansalary - 3 * sdsal
+upper <- meansalary + 3 * sdsal
+dssalaries$salary[dssalaries$salary > lower & dssalaries$salary < upper]
+sqrt(var(first))
+IQR(first)
+quantile(first, 0.25)
+quantile(dssalaries$salary, 0.25)
+quantile(first, 0.75)
+quantile(first, 0.75) - quantile(first, 0.25)
+quantile(first, 0.75) - quantile(first, 0.25)
+Q1 <- 1e+05
+Q3 <- 180000
+IQR <- 80000
+Q3 - Q1
+meansalary - 3* sd
+meansalary + 3* sd
+mean(first)
+med(first)
+max(first)
+maxsalary <- 30400000
+maxsalary - minsalary
+mean(first) - 3* sdsal(first)
+mean(dssalaries$salary) - 3* sdsal (dssalaries$salary)
+mean(first) + 3* sdsal(first)
+values <- c(first, -1824334,2205725 )
+lower <- -1824334
+upper <- 2205725
+values[values > lower & values < upper]
+mean(values[values > lower & values < upper])
+median(values[values > lower & values < upper])
