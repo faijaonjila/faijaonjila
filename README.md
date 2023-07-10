@@ -1,7 +1,8 @@
 ### Hi there 👋
 
 Dataset -  https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023
-This dataset is about data science job salaries. The dataset contains 11 columns:
+This dataset is about data science job salaries. 
+The dataset contains 11 columns:
 work year: The year the compensation was paid.
 experience_level: The experience level in the job during the year
 employment_type: The type of employment for the role
