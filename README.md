@@ -14,6 +14,7 @@ employee_residence: Employee's primary country of residence during the work year
 remote ratio: The overall amount of work done remotely
 company location: The country of the employer's main office or contracting branch
 company size: The median number of people that worked for the company during the year
+The purpose of this repository is to learn data science skills with the help of R.
 
 
 
